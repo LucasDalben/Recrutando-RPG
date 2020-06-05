@@ -1,0 +1,172 @@
+:root {
+    --title-color: #322153;
+    --primary-color: #3549fd;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    height: 780px;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: url('Img/dadofundo.jpg') no-repeat;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: absolute;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 1100px;
+    margin: 40px auto 0px;
+}
+
+h1, h2, h3, p {
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--title-color);
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#cadastro a {
+    display: flex;
+}
+
+
+#container header a {
+    display: flex;
+    color: var(--title-color);
+    font-weight: 700;
+    
+}
+
+#container header a span {
+    display: flex;
+    background: url('extras-aula-1/extras-aula-1/icones/log-in.svg');
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    
+}
+
+#container main {
+    max-width: 560px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main h1 {
+    font-size: 54px;
+    font-weight: 700;
+    width: 560px;
+    margin-bottom: 0px;
+    
+}
+
+main p {
+    font-weight: 300;
+    margin: 15px 0px;
+    line-height: 38px;
+    font-size: 20px;
+}
+
+#container main a {
+    width: 100%;
+    max-width: 360px;
+    height: 72px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    background-color: var(--primary-color);
+    transition: 400ms;
+    color: white;
+}
+
+#container main a:hover {
+    background-color: #0022b8;
+}
+
+#container main a span {
+    width: 72px;
+    height: 72px;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.08);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container main a span::after {
+    content: "";
+    background: url('extras-aula-1/extras-aula-1/icones/search.svg');
+    width: 20px;
+    height: 20px;
+}
+
+#container main a strong {
+    flex: 1;
+    text-align: center;
+}
+
+@media (max-width:900px) {
+
+    #container {
+        align-items: center;
+        text-align: center;
+    }
+
+    #container header a {
+        position: absolute;
+        bottom:48px;
+        left:50%;
+        transform: translateX(-50%);
+    }
+
+    #container main {
+        align-items: center;
+    }
+    
+    main h1 {
+        font-size: 39px;
+        width: 360px;
+    }
+
+    main p {
+        line-height: 30px;
+        font-size: 16px;
+    }
+
+    
+    #container main a {
+        width: 100%;
+        max-width: 360px;
+        height: 52px;
+   
+    }
+
+    #container main a span {
+        width: 52px;
+        height: 52px;
+    }
+    
+}
