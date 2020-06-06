@@ -1,0 +1,51 @@
+@media (max-width:900px) {
+
+    #container {
+        align-items: center;
+        text-align: center;
+    }
+
+    #container header a {
+        position: absolute;
+        bottom:9px;
+        left:50%;
+        transform: translateX(-50%);
+    }
+
+    #container main {
+        align-items: center;
+    }
+    
+    main h1 {
+        font-size: 39px;
+        width: 360px;
+    }
+
+    main p {
+        line-height: 30px;
+        font-size: 16px;
+    }
+
+    
+    #container main a {
+        width: 100%;
+        max-width: 360px;
+        height: 52px;
+   
+    }
+
+    #container main a span {
+        width: 52px;
+        height: 52px;
+    }
+    
+}
+
+@media (max-width: 472px) {
+        #container header a {
+        bottom:-11px;
+        left:50%;
+    }
+
+
+}

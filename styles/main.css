@@ -1,0 +1,35 @@
+:root {
+    --title-color: #322153;
+    --primary-color: #3549fd;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    height: 780px;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: url('../Img/dadofundo.jpg') no-repeat;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: absolute;
+}
+
+
+h1, h2, h3, p {
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--title-color);
+    margin: 0px;
+}
+
+
+
