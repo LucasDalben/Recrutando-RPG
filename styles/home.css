@@ -1,3 +1,13 @@
+body {
+    background: url('../Img/dado-home.jpg') no-repeat;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: absolute;
+}
+
 #container {
     display: flex;
     flex-direction: column;

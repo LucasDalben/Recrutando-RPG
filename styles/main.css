@@ -3,6 +3,13 @@
     --primary-color: #3549fd;
 }
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
 html {
     font-family: 'Roboto', sans-serif;
     margin: 0px;
@@ -12,16 +19,6 @@ html {
 
 a {
     text-decoration: none;
-}
-
-body {
-    background: url('../Img/dadofundo.jpg') no-repeat;
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: absolute;
 }
 
 
